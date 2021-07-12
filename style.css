@@ -1,0 +1,45 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    padding:0 15px;
+    width: 1140px;
+}
+.testimonial-items .client-image img{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 120px;
+    object-fit: cover;
+    width: 120px;
+}
+.filling-happy{
+    background-color: #3a3a3a;
+    border: 1px solid #fff;
+    padding: 40px 30px;
+}
+.client-text{
+    display: flex;
+}
+.filling-happy i {
+    color: #59B6EC;
+    font-size: 20px;
+    padding-top: 7px;
+}
+.filling-happy p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 15px;
+}
+.client-name{
+    padding-right: 20px;
+    text-align: right;
+}
+
+.client-name span,
+.client-name i{
+    color: #59B6EC;
+}
