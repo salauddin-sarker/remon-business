@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
 
   $('.testimonial').owlCarousel({
     loop:true,
